@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+
+/* LEFT PANEL */
+
+.left-panel {
+    width: 30%;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.status {
+    color: #22c55e;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+
+/* RIGHT PANEL */
+
+.right-panel {
+    width: 70%;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.ai-box {
+    background: #e0f2fe;
+    padding: 15px;
+    border-left: 5px solid #0284c7;
+}
